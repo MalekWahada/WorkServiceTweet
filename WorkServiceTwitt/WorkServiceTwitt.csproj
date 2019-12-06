@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <UserSecretsId>dotnet-WorkServiceTwitt-3070CF56-DB14-42CC-827C-F51B02F4BB9E</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.0.0" />
+    <PackageReference Include="MongoDB.Driver" Version="2.9.3" />
+    <PackageReference Include="TweetinviAPI" Version="4.0.3" />
+    <PackageReference Include="TwitterSearchAPI" Version="3.2.0" />
+  </ItemGroup>
+</Project>
